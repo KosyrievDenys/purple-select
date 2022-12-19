@@ -1,0 +1,71 @@
+
+@media (any-hover: hover) {
+  .button:hover {
+    background-color: #825c10;
+  }
+}
+
+* {
+  outline:     none;
+  box-sizing:  border-box;
+  margin:      0;
+  padding:     0;
+  font-family: 'Apercu', sans-serif; // TODO: for example
+  color: black;
+  font-size: 16px;
+}
+
+html,
+body {
+  height: 100%;
+  width:  100%;
+}
+
+section {
+  position: relative;
+}
+
+a {
+  text-decoration: none;
+  cursor:          pointer;
+}
+
+body {
+  display:        flex;
+  flex-direction: column;
+  min-height:     100%;
+}
+
+main {
+  flex:     1 0 auto;
+  position: relative;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.container {
+  width:     100%;
+  max-width: 1440px;
+  padding:   0 15px;
+  margin:    0 auto;
+  position:  relative;
+}
+
+li{
+  list-style: none;
+  padding:    0;
+}
+
+@media screen and (max-width: 991.98px) {
+
+}
+
+@media screen and (max-width: 567px) {
+
+}
